@@ -1,23 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        float numberOne = 27.12f;
-        System.out.println(numberOne);
-        long numberTwo = 987_678_965_549L;
-        System.out.println(numberTwo);
-        int numberThree = 2;
-        System.out.println(numberThree);
-        short numberFour = 786;
-        System.out.println(numberFour);
-        boolean numberFive = false;
-        System.out.println(numberFive);
-        short numberSix = 569;
-        System.out.println(numberSix);
-        short numberSeven = -159;
-        System.out.println(numberSeven);
-        short numberEight = 27897;
-        System.out.println(numberEight);
-        byte numberNine = 67;
-        System.out.println(numberNine);
-
+        var teacherA = 23;
+        System.out.println("У Людмилы Павловны " +teacherA+ " ученика.");
+        var teacherB = 27;
+        System.out.println("У Анны Сергеевны " +teacherB+ " ученика.");
+        var teacherC = 30;
+        System.out.println("У Екатерины Андреевны " +teacherC+ " учеников.");
+        var paper = 480;
+        System.out.println("Всего было закуплено " +paper+ " листов.");
+        var totalStudents = teacherA + teacherB + teacherC;
+        System.out.println("Всего учеников " +totalStudents+ " человек.");
+        var countOfPaper = paper / totalStudents;
+        System.out.println("На каждого ученика рассчитано " +countOfPaper+ " листов бумаги.");
     }
 }
