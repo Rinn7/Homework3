@@ -1,15 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        short totalCount = 120;
-        System.out.println("Всего было закуплено " +totalCount+ " банок краски");
-        short white = 2;
-        short brown = 4;
-        int forOneClass = white + brown;
-        System.out.println("На каждый класс было отведено " +white+ " банки белой краски и " +brown+ " банки коричневой краски");
-        int classesCount = totalCount/forOneClass;
-        System.out.println("Всего в школе " +classesCount+ " классов");
-        int whiteForClasses = classesCount * white;
-        int brownForClasses = classesCount * brown;
-        System.out.println("В школе, где " +classesCount+ " классов, нужно " +whiteForClasses+ " банок белой краски и " +brownForClasses+ " банок коричневой краски");
+        short bananas = 5;
+        short oneBananasWeight = 80;
+        int totalBananasWeight = bananas * oneBananasWeight;
+        System.out.println("" +totalBananasWeight+ "");
+        short milkk = 200;
+        System.out.println("" +milkk+ "");
+        short milk100ml = 105;
+        int milksTotalWeight = milk100ml * 2;
+        System.out.println("" +milksTotalWeight+ "");
+        short iceCream = 2;
+        short oneIceCream = 100;
+        int totalIceCreamWeight = oneIceCream * iceCream;
+        System.out.println("" +totalIceCreamWeight+ "");
+        short eggs = 4;
+        short oneEgg = 70;
+        int totalEggsWeight = oneEgg * eggs;
+        System.out.println("" +totalEggsWeight+ "");
+        int totalWeightOfFood = totalBananasWeight + milksTotalWeight + totalIceCreamWeight + totalEggsWeight;
+        System.out.println("" +totalWeightOfFood+ "");
+
     }
 }
